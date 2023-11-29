@@ -3,3 +3,11 @@
     height: 100px ;
     background: var(--151515, #151515);
 }
+.navbuttons button{
+    border-style: none;
+    background:none;
+    color: white;
+}
+.navbuttons button:hover{
+    color:#A92672;
+}
