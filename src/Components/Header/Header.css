@@ -1,13 +1,22 @@
 .Header{
-    width:100% ;
+    max-width: 980px;
     height: 100px ;
-    background: var(--151515, #151515);
+    display: flex;
+    justify-content:space-around;
+    align-items: center;
+    align-self:auto ;
+    border: solid red;
 }
 .navbuttons button{
     border-style: none;
     background:none;
     color: white;
+    width: auto;
+    height: 20px;
 }
 .navbuttons button:hover{
     color:#A92672;
+}
+.Header img{
+    margin-top: 35px;
 }
