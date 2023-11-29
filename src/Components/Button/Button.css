@@ -1,0 +1,15 @@
+button{
+    border-radius: 4px;
+    background: #A92672;
+    width: 140px;
+    height: 44px;
+    color: #FFF;
+    text-align: center;
+    font-family: Oswald;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 15px;
+    letter-spacing: 0.32px;
+    text-transform: uppercase;
+}
