@@ -1,10 +1,27 @@
-import React from 'react'
-import './Button.css'
+import React from 'react';
+import './Button.css';
 
-const Button = () => {
-  return (
-    <button className='buttonToImport'>Contact US</button>
-  )
-}
+const Button = ({data}) => {
+  switch(data.id) {
+    case 1:
+      return (
+        <button className='buttonToImport'>{data.txt}</button>
+      );
+    case 2:
+      return (
+        <button className='buttonToImport'>{data.txt}</button>
+      );
+    case 3:
+      return (
+        <button className='buttonToImport'>{data.txt}</button>
+      );
+    case 4:
+      return (
+        <button className='buttonToImport'>{data.txt}</button>
+      );
+    default:
+      return null;
+  }
+};
 
-export default Button
+export default Button;

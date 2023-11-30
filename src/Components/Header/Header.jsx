@@ -3,7 +3,7 @@ import './Header.css';
 import Button from '../Button/Button.jsx';
 import TRNN from '../../Assets/Images/TRNN.png'
 
-const Header = () => {
+const Header = ({data}) => {
   return (
     <div className='Header'>
       <div className='Head'>
@@ -13,7 +13,7 @@ const Header = () => {
           <button id='Services'>Services</button>
         </nav>
         <img src={TRNN} alt='TRNN logo.png'></img>
-        <Button/>
+        <Button data={data}/>
       </div>
     </div>
   )
