@@ -11,3 +11,7 @@
     letter-spacing: 0.32px;
     text-transform: uppercase;
 }
+.buttonToImport:hover{
+    width: 145px;
+    height: 49px;
+}

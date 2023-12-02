@@ -1,0 +1,12 @@
+.Layout{
+    max-width: 920px;
+    display: flex;
+    align-items:center;
+    justify-content:space-between;
+    position: relative;
+    left: 220px;
+}
+.third{
+    width: 100%;
+    background-color: #A92672;
+}

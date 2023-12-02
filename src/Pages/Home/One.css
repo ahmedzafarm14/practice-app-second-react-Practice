@@ -1,39 +1,75 @@
 .Top{
     background: url("../../Assets/Images/One.png");
     background-repeat: no-repeat;
-    height:680px;
+    background-position: center center;
+    height:100vh;
     background-size: cover;
 }
 .ellipse {
-    width: 480px;
-    height: 480px;
+    width: 450px;
+    height: 450px;
     border-bottom-right-radius: 480px;
-    opacity: 0.8;
-    background: #A92672 ;
+    opacity: 0.6;
+    background: linear-gradient(to right bottom, #A92672, transparent);
+    filter: blur(35px);
+    position: relative;
+    top: 0px;
+    left:0px;
   }
 
 .ellipsee {
-    width: 480px;
-    height: 480px;
+    width: 450px;
+    height: 450px;
     border-top-left-radius: 480px;
-    opacity: 0.8;
-    background: #A92672 ;
+    opacity: 0.6;
+    background: linear-gradient(to left top, #A92672, transparent);
+    filter: blur(35px);
+    position: relative;
+    bottom: 290px;
+    right:-880px;
+  }
+  .txxt{
+    position: absolute;
+    max-width: 530px;
+    height: 340px;
+    top: 215px;
+    left:220px;
   }
   .txxt p{
     color: white;
-    font-family: General Sans;
+    font-family: 'Oswald';
     font-size: 20px;
     font-style: normal;
-    font-weight: 500;
-    line-height: 24px;
     text-transform: uppercase;
   }
   .txxt h2{
     color: #FFF;
-    font-family: Oswald;
-    font-size: 50px;
+    font-family: 'Oswald';
+    font-size: 45px;
     font-style: normal;
-    font-weight: 500;
     line-height: 130%; 
     text-transform: uppercase;
+  }
+  .txxt h2 span{
+    color: #A92672;
+  }
+
+  .rectangle1{
+    position: relative;
+    top: -340px;
+    left: 220px;
+    max-width: 920px;
+    height:100px;
+    border-radius: 10px;
+    background: #A92672;
+    display: flex;
+    justify-content: space-around;
+  }
+  .txtt{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .txtt p{
+    margin-left: 15px;
   }

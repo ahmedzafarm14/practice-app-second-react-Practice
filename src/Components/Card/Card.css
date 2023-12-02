@@ -1,0 +1,16 @@
+.inBox{
+    border-radius: 10px;
+    border: 1px solid #424242;
+    background: #222020;
+    width: 350px;
+    height: 480px;
+    text-align: left;
+}
+.inBox h4{
+    padding-left: 15px;
+}
+.imggg{
+    width: 320px;
+    height:370px;
+    padding: 15px;
+}
