@@ -1,36 +1,40 @@
 .Main1{
     background: var(--151515, #151515);
     width: 100%;
-    height:680px;
+    height:800px;
     display: flex;
     justify-content: center;
 }
 .llayout{
     width: 920px;
     text-transform: uppercase;
-    border: red solid;
     text-align: center;
+    margin-top: 50px;
 }
 .llayout h2 span{
     color: #A92672;
 }
 .Main2{
-    border: red solid;
     display: flex;
     justify-content: space-between;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    width: 920px;
+    position:relative;
     z-index: 2;
 }
-
+.pos{
+    position: relative;
+}
 .Elip{
     width: 320px;
     height: 320px;
-    flex-shrink: 0;
     border-radius: 320px;
     opacity: 0.8;
     background: #A92672;
     filter: blur(70px);
-    position: relative;
-    top: -535px;
+    position: absolute;
+    top: 0px;
     left: 275px;
     z-index: 1;
 }

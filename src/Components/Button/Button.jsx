@@ -17,10 +17,10 @@ const Button = ({data}) => {
       );
     case 4:
       return (
-        <button className='buttonToImport'>{data.txt}</button>
+        <button className='buttonToImport' style={data.styleee}>{data.txt}</button>
       );
-    default:
-      return null;
+      default:
+        return null;
   }
 };
 
