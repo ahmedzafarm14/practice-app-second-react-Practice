@@ -17,10 +17,10 @@ const Footer = () => {
           <div className='leftSide'>
             <img src={Logo} alt='logo.png'/>
             <div className='icons'>
-            <a href='www.Tiktok.com'><img src={Tiktok} alt='logo.png'/></a>
-            <a href='www.facebook.com'><img src={Fb} alt='logo.png'/></a>
-            <a href='www.x.com'><img src={Twiter} alt='logo.png'/></a>
-            <a href='www.instagram.com'><img src={Instagram} alt='logo.png'/></a>
+            <a href='https://www.Tiktok.com'><img src={Tiktok} alt='logo.png'/></a>
+            <a href='https://facebook.com'><img src={Fb} alt='logo.png'/></a>
+            <a href='https://x.com'><img src={Twiter} alt='logo.png'/></a>
+            <a href='https://instagram.com'><img src={Instagram} alt='logo.png'/></a>
             </div>
           </div>
           <div className='rightSide'>
